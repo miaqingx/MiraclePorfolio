@@ -7,34 +7,42 @@
     <title>Miracle Portfolio</title>
     <link rel="shortcut icon" href="./images/favicon.ico" type="images/x-icon" />
     <script src="https://kit.fontawesome.com/2c4adb6c1b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body id="Body">
     <!-- header part -->
-    <header>
-        <div>
-            <img src="./images/portfolio logo.png" alt="amike logo" id="brand logo" />
+    <header >
+      <div class="rowcontent">
+        <div id="amikelogo">
+            <img src="./images/portfolio logo.png" alt="amike logo" id="brand-logo" />
         </div>
 
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
+        <nav class="nav">
+            <ul class="flex">
+                <li class="list"><a href="#Home">Home</a></li>
+                <li class="list"><a href="#about">About</a></li>
+                <li class="list"><a href="#skills">Skills</a></li>
+                <li class="list"><a href="#portfolio">Portfolio</a></li>
+                <li class="list"><a href="#blog">Blog</a></li>
+                <li class="list"><a href="#contact">Contact</a></li>
+                <li class="list"><a href="#services">Services</a></li>
             </ul>
         </nav>
+      </div>
     </header>
 
     <!-- main part -->
     <main>
         <section id="Home">
+         <div class="rowcontent hme">
             <div id="leftbox">
                 <!-- social icon -->
                 <div>
+                   <div class="rowcontent icon">
                     <div class="socialicon">
                         <i class="fa-brands fa-facebook"></i>
                     </div>
@@ -50,21 +58,26 @@
                     <div class="socialicon">
                         <i class="fa-brands fa-instagram"></i>
                     </div>
+                   </div>
                     <!-- text content  -->
-                    <h1>I am Miracle Onuoha</h1>
-                    <p>Miracle, a software developer with a short time experience</p>
+                    <h1 class="heading">I am Miracle Onuoha</h1>
+                    <p class="hometext">I'm Miracle, professional web developer with <br> long time experience in this field</p>
                     <!-- cta bottom  -->
-                    <div>
-                        <button>Portfolio</button>
-                        <button><i class="fa-solid fa-play"></i></button>
+                    <div ">
+                       <a href="#Portfolio"> <button class="cta">My Portfolio</button></a>
+                       <a href="#Portfolio">  <button class="youtube"><i class="fa-solid fa-play"></i></button></a>
+                       
                     </div>
 
                 </div>
 
 
-                <div id="rightbox">
-                    <img src="./images/amike logo.png" alt="amike" />
-                </div>
+               
+            </div>   
+            <div id="rightbox">
+                <img src="./images/amike logo.png" alt="amike" height="600px">
+            </div>
+         </div>
         </section>
 
         <section id="Services">

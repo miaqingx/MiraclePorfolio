@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+header {
+    background-color: #1f2235;
+    /* margin: -9px ; */
+    position: sticky;
+    top: 0;
+    padding: 30px 100px; 
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.rowcontent{
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+}
+
+#brand-logo {
+    width: 100px;
+    
+}
+.list {
+    list-style: none;
+    padding-right: 30px;
+
+}
+
+.list a {
+    text-decoration: none;
+}
+
+/* home section */
+
+.hme {
+    background-color: #24263B;
+    padding: 100px 200px 30px 100px; 
+    ;
+}
+
+#leftbox {
+    margin-top: 100px;
+}
+
+
+.socialicon {
+    border: 2px solid red;
+    background-color: #1f2235;
+    /* padding: 5px 9px 3px 9px;  */
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  
+  
+}
+
+.icon {
+    width: 300px;
+}
+
+i {
+    font-size: 19px;
+    width: ;
+
+}
+
+.heading {
+    font-size: 50px;
+    padding: 30px 0px;
+}
+
+.cta {
+    
+    padding: 12px 30px;
+    border: 2px solid red;
+    border-radius: 30px;
+    background-color: #24263B;
+
+}
+
+.youtube {
+    
+    padding: 12px 33px;
+    border: 2px solid red;
+    border-radius: 30px;
+    background-color: red;
+    margin-left: 20px;
+
+}
+.hometext {
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+/* 
+#Services {
+    background-color: #24263B;
+} */
