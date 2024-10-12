@@ -102,7 +102,289 @@ i {
     font-size: 25px;
     padding-bottom: 30px;
 }
-/* 
+
+/* services styles */
+
 #Services {
+    background-color: #1F2235;
+    padding-top: 100px ;   
+}
+
+.space {
+    padding: 0px 100px;
+}
+
+.colcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    
+
+.divider {
+    width: 70px;
+    height: 1px;
+    border: 2px solid red;
+    margin-top: 20px;
+    margin-left: 230px;
+    
+}
+
+.servipara {
+   text-align: center;
+}
+
+.smalltitle {
+    color: red;
+    font-size: medium;
+    text-align: center;
+}
+
+.bigtitle {
+    font-size: 50px;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+
+#bottombox {
+    /* text-align: center; */
+    flex-wrap: wrap;
+    padding: 50px 170px;
+}
+
+.service-card {
+    background-color: #23263A;
+    width: 290px;
+    height: 300px;
+    padding: 40px 20px 10px 30px;
+
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.service-card:hover {
+    background-color: red;
+    i {
+        color: #fff;}
+}
+
+.service-card i {
+    font-size: 40px;
+    color: red;
+    padding-bottom: 40px;
+}
+
+.servspace {
+    padding-bottom: 20px;
+}
+
+/* about styling */
+
+#About {
+    background-color: #23263A;
+    padding: 20px 100px;
+   
+    
+}
+
+.divide {
+    
+        width: 70px;
+        height: 1px;
+        border: 2px solid red;
+        margin-top: 20px;
+        /* margin-left: 230px; */
+        
+    
+}
+
+.midtitle {
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin-top: 60px;
+}
+.abouttitle {
+    color: red;
+    padding-top: 25px;
+}
+
+.aboutleft {
+    padding-left: 100px;
+}
+.aboutshift {
+    padding-right: 250px;
+}
+
+
+.aboutshift1 {
+    padding-right: 320px;
+}
+
+
+/* skills styling */
+
+#Skills {
+    background-color: #1F2235;
+    padding: 20px 100px 110px 100px;
+}
+
+.skillstitle1 {
+    font-size: 50px;
+ 
+   
+}
+
+.skillstitle {
+   color: red;
+   padding-top: 70px;
+   padding-bottom: 20px;
+
+   
+}
+
+.skillspara {
+        padding-bottom: 30px;
+        padding-top: 30px;
+        line-height: 1.9;
+}
+
+.skillbox {
+     margin-top: 160px;
+     margin-right: 220px;
+}
+
+
+.experience {
+
+    border-bottom: 5px solid red;
+    width: 400px;
+    padding-bottom: 10px;
+    
+}
+/* 
+.experiencetitle {
+    /* padding-top: 10px ; */
+ */
+
+
+
+
+.rate {
+    border: 2px solid #fff;
+
+}
+
+
+.experience1 {
+
+    border-bottom: 5px solid red;
+    width: 350px;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    
+}
+
+
+.experience2 {
+
+    border-bottom: 5px solid red;
+    width: 300px;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    
+}
+
+
+.experience3 {
+
+    border-bottom: 5px solid red;
+    width: 440px;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    
+}
+
+
+
+
+/* Portfolio styling */
+
+#Portfolio {
+    background-color: #23263A;
+    padding: 20px 100px;
+}
+
+.port {
+    text-align: center;
+}
+
+#buttonbox {
+    margin: 40px 0px 50px 300px;
+}
+
+.portbutton {
+    padding: 5px 20px;
+    border: 2px solid red;
+    border-radius: 20px;
     background-color: #24263B;
-} */
+    padding: 10px 15px;
+    margin-right: 10px;
+}
+
+
+.portbutton a {
+    text-decoration: none;
+}
+
+
+.portbutton:hover {
+    background-color: red;
+    color: #fff;
+}
+
+
+.portbutton1 {
+    padding: 5px 20px;
+    border: 2px solid  #24263B;
+    border-radius: 20px;
+    background-color: #24263B;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.portbutton1 a {
+    text-decoration: none;
+}
+
+.portbutton1:hover {
+    background-color: red;
+    color: #fff;
+}
+
+
+.imagecol {
+    display: flex;
+    flex-direction: column;
+}
+
+.leftport {
+
+    padding-left: 200px;
+
+   
+}
+
+
+.rightport {
+
+    padding-right: 200px;
+
+   
+}
+
+.portimage {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
